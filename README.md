@@ -65,3 +65,9 @@ this modification.
 
 The `outpath` option specifies where to copy the contents of the selected directory
 to patch before patching.
+
+## Distributing
+
+When distributing a UPSM modification, you should distribute it as a `.upsm.zip`.
+It can be either zipped with a single directory within it or with all the files from
+the original `.upsm` in the root of the `.upsm.zip`
