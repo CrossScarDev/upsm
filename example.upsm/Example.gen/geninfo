@@ -1,0 +1,3 @@
+targetpath=/System/ExampleApp.pdx
+options=-s -p1 -d src/
+outpath=src/
