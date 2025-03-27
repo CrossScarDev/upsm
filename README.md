@@ -47,23 +47,21 @@ on-device updater or other tools.
 
 ### geninfo Options
 
+The name of the `.gen` directory tells the installer what system app to patch. For
+example if a `.gen` directory was named `ExampleApp.gen` then it would patch `/System/ExampleApp.pdx`.
+
 #### patch?: string
 
 `patch` is an optional option that is the path to the patch file that should be used
 to patch part of PlaydateOS. If `patch` is not specified then the first `.patch`
 file will be used.
 
-#### targetpath: string
-
-The `targetpath` option is the path to the part of PlaydateOS being patch. It must
-be a directory.
-
 #### options: string
 
 The `options` option is simply the options passed to the `patch` that were used for
 this modification.
 
-#### outpath: string
+#### path: string
 
 The `outpath` option specifies where to copy the contents of the selected directory
 to patch before patching.
