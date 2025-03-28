@@ -78,7 +78,7 @@ this modification.
 
 #### path: string
 
-The `outpath` option specifies where to copy the contents of the selected directory
+The `path` option specifies where to copy the contents of the selected directory
 to patch before patching.
 
 ## Distributing
