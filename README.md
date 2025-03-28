@@ -46,7 +46,7 @@ the installed modifications to any on-device updater or other tools.
 
 #### id?: string
 
-The `version` option should be a URL in reverse DNS notation and will be copied
+The `id` option should be a URL in reverse DNS notation and will be copied
 into `/System/modinfo.json` to give info about the installed modifications to any
 on-device updater or other tools.
 
@@ -57,8 +57,13 @@ the installed modifications to any on-device updater or other tools.
 
 #### description?: string
 
-The `description` option will be copied into `/System/modinfo.json` to give info about
-the installed modifications to any on-device updater or other tools.
+The `description` option will be copied into `/System/modinfo.json` to give info
+about the installed modifications to any on-device updater or other tools.
+
+#### launchers?: []string
+
+The `launchers` option is an array of strings containing the paths of different launchers
+that the modification contains.
 
 ### geninfo Options
 
