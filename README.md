@@ -60,10 +60,11 @@ the installed modifications to any on-device updater or other tools.
 The `description` option will be copied into `/System/modinfo.json` to give info
 about the installed modifications to any on-device updater or other tools.
 
-#### launchers?: []string
+#### launcherpath?: string
 
-The `launchers` option is an array of strings containing the paths of different launchers
-that the modification contains.
+The `launcherpath` option is used to specify what path the `Launcher.pdx` file should
+use if there is a loader being used. It is only required when a `Launcher.pdx` folder
+is present.
 
 ### geninfo Options
 
