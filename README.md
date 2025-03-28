@@ -24,6 +24,9 @@ and a `geninfo` file containing metadata.
 
 ### upsminfo Options
 
+The `upsminfo` file is required to be in the `.upsm` directory even if no options
+are specified.
+
 #### loader?: bool
 
 The `loader` option determines if the contained `Launcher.pdx` is a loader. If it
@@ -31,21 +34,31 @@ is a loader then all of the other modifications' `Launcher.pdx` folders will be
 put into the `/System/Launchers/` folder instead of directly into `/System/`. If
 the `loader` option is not specified then the default value is `false`.
 
-#### name: string
+#### name?: string
 
 The `name` option will be copied into `/System/modinfo.json` to give info about the
 installed modifications to any on-device updater or other tools.
 
-#### version: string
+#### version?: string
 
 The `version` option will be copied into `/System/modinfo.json` to give info about
 the installed modifications to any on-device updater or other tools.
 
-#### id: string
+#### id?: string
 
 The `version` option should be a URL in reverse DNS notation and will be copied
 into `/System/modinfo.json` to give info about the installed modifications to any
 on-device updater or other tools.
+
+#### author?: string
+
+The `author` option will be copied into `/System/modinfo.json` to give info about
+the installed modifications to any on-device updater or other tools.
+
+#### description?: string
+
+The `description` option will be copied into `/System/modinfo.json` to give info about
+the installed modifications to any on-device updater or other tools.
 
 ### geninfo Options
 
