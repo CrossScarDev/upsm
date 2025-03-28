@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "build": {
+    "command": "cd docs && npm install && npm run docs:build",
+    "publish": "docs/.vitepress/dist"
+  }
+}
