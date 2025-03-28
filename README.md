@@ -71,12 +71,6 @@ is present.
 The name of the `.gen` directory tells the installer what system app to patch. For
 example if a `.gen` directory was named `ExampleApp.gen` then it would patch `/System/ExampleApp.pdx`.
 
-#### patch?: string
-
-`patch` is an optional option that is the path to the patch file that should be used
-to patch part of PlaydateOS. If `patch` is not specified then the first `.patch`
-file will be used.
-
 #### options: string
 
 The `options` option is simply the options passed to the `patch` that were used for
