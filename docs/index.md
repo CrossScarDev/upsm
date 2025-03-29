@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Install Guide
-      link: /instalelr
+      link: /installer
     - theme: alt
       text: Specification
       link: /spec
