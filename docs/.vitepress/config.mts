@@ -19,6 +19,7 @@ export default defineConfig({
         text: 'UPSM',
         items: [
           { text: 'Specification', link: '/spec' },
+          { text: 'Distributing', link: '/distribute' },
           { text: 'Install Guide', link: '/installer' }
         ]
       }
