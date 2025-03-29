@@ -27,28 +27,27 @@ the `loader` option is not specified then the default value is `false`.
 
 ### name?: string
 
-The `name` option will be copied into `/System/modinfo.json` to give info about the
-installed modifications to any on-device updater or other tools.
+The `name` option will be copied into `/System/upsm_mods.json` to give info about
+the installed modifications to any on-device updater or other tools.
 
 ### version?: string
 
-The `version` option will be copied into `/System/modinfo.json` to give info about
+The `version` option will be copied into `/System/upsm_mods.json` to give info about
 the installed modifications to any on-device updater or other tools.
 
-### id?: string
+### url?: string
 
-The `id` option should be a URL in reverse DNS notation and will be copied
-into `/System/modinfo.json` to give info about the installed modifications to any
-on-device updater or other tools.
+The `url` option will be copied into `/System/upsm_mods.json` to give info about
+the installed modifications to any on-device updater or other tools.
 
 ### author?: string
 
-The `author` option will be copied into `/System/modinfo.json` to give info about
-the installed modifications to any on-device updater or other tools.
+The `author` option will be copied into `/System/upsm_mods.json` and is a url that
+can be used to download updates from.
 
 ### description?: string
 
-The `description` option will be copied into `/System/modinfo.json` to give info
+The `description` option will be copied into `/System/upsm_mods.json` to give info
 about the installed modifications to any on-device updater or other tools.
 
 ### launcherpath?: string
@@ -79,7 +78,6 @@ to patch before patching.
 ```txt
 name=Example UPSM
 version=0.2.1-example1
-id=link.grady.upsm.example
 author=grady.link
 description=This is a very cool example.
 launcherpath=Cool-Launcher.pdx
